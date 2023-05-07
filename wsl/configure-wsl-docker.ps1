@@ -117,8 +117,8 @@ $json.defaultProfile = $customUbuntu.guid
 # Add git bash!
 $gitBashJson = @"
 {
-  "guid": "{00000000-0000-0000-ba54-0000000000002}",
-  "commandLine": "%PROGRAMFILES%/Git/usr/bin/bash.exe -i -l"
+  "guid": "{00000000-0000-0000-ba54-000000000002}",
+  "commandLine": "%PROGRAMFILES%/Git/usr/bin/bash.exe -i -l",
   "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
   "name": "Bash"
 }
